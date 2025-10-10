@@ -85,7 +85,7 @@
     </div>
 
     <footer class="footer">
-      <p>&copy; 2025 Votre Nom. Tous droits réservés.</p>
+      <p>&copy; 2025 rakotozafysafidy. Tous droits réservés.</p>
       <p class="footer-credit">Conçu et développé avec ❤️</p>
     </footer>
   </section>
