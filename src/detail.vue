@@ -158,7 +158,7 @@ import outscallerVideo from './assets/video/outscaller.mp4'
 
 const projects = ref([
   { 
-    title: "Site Évaluation Linguistique", 
+    title: "Évaluation Linguistique", 
     description: "Stage chez Hopes Formation, on était deux sur ce projet, fullstack, donc back et front. Le site permet de tester le niveau de français et d'anglais des apprenants avec des quiz interactifs, suivi des résultats et rapports automatiques pour les formateurs.", 
     demo: { type: "image", src: milangImage }, 
     technologies: ["HTML","CSS","Bootstrap","JavaScript","PHP","MySQL"], 
@@ -167,7 +167,7 @@ const projects = ref([
   { 
     title: "CRM d'Appel – i-numera / Outscaller", 
     description: "Stage chez i-numera, participation au développement d'un CRM d'appel et intégration de l'API téléphonique pour automatiser les appels. Suivi des interactions clients, génération de statistiques et optimisation des processus commerciaux.", 
-    demo: { type: "video", src: inumeraVideo }, 
+    demo: { type: "video", src: outscallerVideo }, 
     technologies: ["Tailwind","Laravel","Vue.js","MySQL"], 
     github: "#" 
   },
@@ -188,7 +188,7 @@ const projects = ref([
   { 
     title: "Site Vitrine - I-Numera", 
     description: "Site vitrine moderne pour valoriser l'entreprise et ses services. Interface dynamique et responsive avec sections animées, intégration multimédia et optimisation SEO pour améliorer la visibilité et l'engagement des visiteurs.", 
-    demo: { type: "video", src: outscallerVideo }, 
+    demo: { type: "video",  src: inumeraVideo }, 
     technologies: ["HTML","Tailwind","Vue.js","Laravel"], 
     github: "#" 
   }

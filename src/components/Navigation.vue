@@ -16,7 +16,7 @@
           :class="{ 'scrolled-link': isScrolled, 'active-link': activeSection === 'home' }" 
           @click="closeMenu"
         >
-          <span class="link-number">01</span>
+         
           <span class="link-text">Accueil</span>
           <span class="link-indicator"></span>
         </a>
@@ -26,7 +26,7 @@
           :class="{ 'scrolled-link': isScrolled, 'active-link': activeSection === 'about' }" 
           @click="closeMenu"
         >
-          <span class="link-number">02</span>
+          
           <span class="link-text">À propos</span>
           <span class="link-indicator"></span>
         </a>
@@ -36,7 +36,7 @@
           :class="{ 'scrolled-link': isScrolled, 'active-link': activeSection === 'projects' }" 
           @click="closeMenu"
         >
-          <span class="link-number">03</span>
+          
           <span class="link-text">Projets</span>
           <span class="link-indicator"></span>
         </a>
@@ -153,7 +153,7 @@ export default {
 
 .navbar.scrolled {
   padding: 1rem 0;
-
+  
   backdrop-filter: saturate(180%) blur(20px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);

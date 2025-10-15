@@ -89,7 +89,7 @@
             <div class="comment-bubble">
               <span class="comment-icon">💡</span>
               <span class="comment-text">Créatif & Innovant</span>
-              <div class="bubble-tail"></div>
+              
             </div>
           </div>
 
@@ -104,7 +104,7 @@
             <div class="comment-bubble">
               <span class="comment-icon">🚀</span>
               <span class="comment-text">Toujours en évolution</span>
-              <div class="bubble-tail"></div>
+              
             </div>
           </div>
 
@@ -127,10 +127,10 @@ export default {
     return {
       currentSlide: 0,
       slideTexts: [
-        "Bonjour je m'appelle RAKOTOZAFY Safidinirina, originaire de Madagascar, étudiant en informatique",
+        "Bonjour je m'appelle RAKOTOZAFY Safidinirina, 20ans , originaire de Madagascar",
         "Je suis un étudiant en informatique passionné par le développement web, la création de logiciel et les technologies modernes.",
         "J'adore créer des interfaces élégantes et performantes qui marquent les utilisateurs.",
-        "Mon objectif : transformer des idées complexes en expériences digitales fluides et intuitives."
+        "Mon objectif :Ameliorer mes compétennces , transformer des idées en expériences digitales fluides et intuitives."
       ],
       skills: [
         { name: "HTML & CSS", level: 90, color: "#E34F26" },
@@ -139,7 +139,7 @@ export default {
         { name: "JavaScript", level: 53, color: "#F7DF1E" },
         { name: "Vue.js", level: 45, color: "#42B883" },
         { name: "Laravel", level: 60, color: "#FF2D20" },
-        { name: "Git & GitHub", level: 50, color: "#F05032" }
+        { name: "Git & GitHub", level: 65, color: "#F05032" }
       ],
       gifSrc: BirdGif
     }
